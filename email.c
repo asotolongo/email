@@ -119,7 +119,7 @@ email_send(PG_FUNCTION_ARGS)
 }
 
 
-
+//funcion para obtener usuario
 PG_FUNCTION_INFO_V1(getuser);
 Datum
 getuser(PG_FUNCTION_ARGS)
