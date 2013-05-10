@@ -1,7 +1,7 @@
 {
  "name": "email",
  "abstract": "Email data type for Postgresql ",
- "version": "0.1",
+ "version": "0.1.0",
  "maintainer": "Anthony <asotolongo@uci.cu>",
  "license": "postgresql",
  "provides": {
@@ -9,7 +9,7 @@
        "abstract": "Email data type for Postgresql",
        "file": "email--0.1.sql",
        "docfile": "README",
-       "version": "0.1"
+       "version": "0.1.0"
     }
  },
  "prereqs": {
@@ -31,8 +31,8 @@
  },
  "generated_by": "Anthony R. Sotolongo leon",
  "meta-spec": {
-    "version": "0.1",
-    "url": ""
+    "version": "1.0.0",
+    "url": "http://pgxn.org/meta/spec.txt"
  },
  "tags": [
     "email",
