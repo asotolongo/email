@@ -1,0 +1,57 @@
+======================================
+
+This PostgreSQL extension implements a email data type
+
+
+IMPORTANT: hash c function for hash index is not implementes yet, i do it in plpgsql . I'm working on it and will be releasing another version very soon.
+
+
+Building
+--------
+
+make USE_PGXS=1
+sudo make USE_PGXS=1 install
+
+in postgresql execute: create extension email
+
+
+
+function
+--------
+getuser(email) return the user of email
+getdomain (emial)  return the domain of email
+
+
+operators
+--------
+=  check that 2 email data are iquals
+<>  check that 2 email data are diferent
+
+Example
+-------
+
+
+create extension email
+
+
+ 
+
+create table example (field email)
+
+insert into ejemplo values ('asotolongo@uci.cu')
+
+
+
+select * from ejemplo where field1='asotolongo@uci.cu'
+
+
+
+select getuser(field1),getdomain(field1) from ejemplo
+
+
+
+
+
+-- 
+Anthony R. Sotolongo leon
+asotolongo@uci.cu

@@ -1,0 +1,5 @@
+# email extension
+comment = 'Data type for store email '
+default_version = '0.1'
+module_pathname = '$libdir/email'
+relocatable = true

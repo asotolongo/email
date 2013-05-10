@@ -1,0 +1,42 @@
+{
+ "name": "email",
+ "abstract": "Email data type for Postgresql ",
+ "version": "0.1",
+ "maintainer": "Anthony <asotolongo@uci.cu>",
+ "license": "postgresql",
+ "provides": {
+    "email": {
+       "abstract": "Email data type for Postgresql",
+       "file": "email--0.1.sql",
+       "docfile": "README",
+       "version": "0.1"
+    }
+ },
+ "prereqs": {
+    "runtime": {
+       "requires": {
+          "PostgreSQL": "9.1.0"
+       }
+    }
+ },
+ "resources": {
+    "bugtracker": {
+       "web": "http://postgresql.uci.cu"
+    },
+    "repository": {
+      "url":  "https://github.com/asotolongo/email.git",
+      "web":  "https://github.com/asotolongo ",
+      "type": "git"
+    }
+ },
+ "generated_by": "Anthony R. Sotolongo leon",
+ "meta-spec": {
+    "version": "0.1",
+    "url": ""
+ },
+ "tags": [
+    "email",
+    "data type"
+   
+ ]
+}
